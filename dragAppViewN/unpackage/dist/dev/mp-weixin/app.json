@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/zyPages/centerPage/centerPage",
+    "pages/zyPages/centerPage/preview",
+    "pages/zyPages/leftPage/leftPage"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "基础组件",
+        "iconPath": "static/template.png",
+        "text": "基础组件"
+      },
+      {
+        "pagePath": "表单组件",
+        "iconPath": "static/template.png",
+        "text": "表单组件"
+      },
+      {
+        "pagePath": "数据组件",
+        "iconPath": "static/template.png",
+        "text": "数据组件"
+      },
+      {
+        "pagePath": "反馈组件",
+        "iconPath": "static/template.png",
+        "text": "反馈组件"
+      },
+      {
+        "pagePath": "布局组件",
+        "iconPath": "static/template.png",
+        "text": "布局组件"
+      },
+      {
+        "pagePath": "导航组件",
+        "iconPath": "static/template.png",
+        "text": "导航组件"
+      },
+      {
+        "pagePath": "其他组件",
+        "iconPath": "static/template.png",
+        "text": "其他组件"
+      },
+      {
+        "pagePath": "模板",
+        "iconPath": "static/template.png",
+        "text": "模板"
+      },
+      {
+        "pagePath": "已生成页面",
+        "iconPath": "static/template.png",
+        "text": "已生成页面"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

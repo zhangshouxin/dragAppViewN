@@ -1,0 +1,88 @@
+<template>
+	<view style="overflow:scroll;">
+<u-button id="780a7208-fa69-4326-8337-7847a1f42499"    ></u-button>
+
+	</view>
+	
+</template>
+<script>
+	
+
+	import {
+		mapState,
+		mapMutations
+	} from 'vuex';
+	export default {
+		data() {
+			return {
+
+				
+				
+			}
+		},
+		methods: {
+			
+
+			
+
+
+			
+			
+		},
+
+		computed: {
+			
+		},
+		components: {
+
+		},
+		onShow: function() {
+			
+		},
+		updated(){
+			
+		},
+		
+		onReady() {
+			
+			
+			
+			
+
+
+		},
+		
+	}
+
+	
+</script>
+
+
+<style>
+	page {
+		border: 2px solid #2d497b;
+		border-radius: 5px;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.u_form_add {
+		height: 60px;
+		border: 1px solid #888888;
+		margin: 10px;
+		border-radius: 5rpx;
+		line-height: 60px;
+		font-size: 14px;
+		color: #888888;
+		text-align: center;
+	}
+
+	.cellGroupAdd {
+		text-align: center;
+		height: 120rpx;
+		line-height: 120rpx;
+		font-size: 13px;
+		color: #888888;
+		
+	}
+</style>

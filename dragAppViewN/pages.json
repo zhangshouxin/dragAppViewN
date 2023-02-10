@@ -1,0 +1,148 @@
+{
+    "easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"leftWindow": {
+		"path": "windows/left-window.vue",
+		"style": {
+			"width": "240px"
+		
+		}
+	},
+	"rightWindow": {
+		"path": "windows/right-window.vue",
+		"style": {
+			"width": "560px"
+			
+		}
+	},
+	"topWindow": {
+		"path": "windows/top-window.vue",
+		"style": {
+			"height": "60px"
+		}
+	},	
+	
+	"pages": [ 
+		{
+		    "path" : "pages/zyPages/centerPage/centerPage",
+			//"path" : "pages/newPage/index/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "创建页面",
+				"usingComponents": {
+				},
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "清空页面",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "12px",
+							"fontWeight":"bold",
+							"color": "#333333"
+							
+						},
+						{
+							"text": "未挂载组件",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "12px",
+							"fontWeight":"bold",
+							"color": "#333333"
+						},
+						{
+							"text": "保存",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "12px",
+							"fontWeight":"bold",
+							"color": "#333333"
+						}
+						]
+					}
+				}
+		    }
+		    
+		},
+		{
+		    "path" : "pages/zyPages/centerPage/preview",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "页面预览",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/zyPages/leftPage/leftPage",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+
+
+/*361deff1-16ce-4a61-8107-05e0e7b49927开始*/,{"path": "pages/newPage/aaa/aaa","style": {"navigationBarTitleText": "bbb"},"id":"361deff1-16ce-4a61-8107-05e0e7b49927"}/*361deff1-16ce-4a61-8107-05e0e7b49927结束*/
+//新增页面追加
+
+
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "基础组件",
+				"iconPath": "static/template.png",
+				"text": "基础组件"
+			},
+			{
+				"pagePath": "表单组件",
+				"iconPath": "static/template.png",
+				"text": "表单组件"
+			}
+			, {
+				"pagePath": "数据组件",
+				"iconPath": "static/template.png",
+				"text": "数据组件"
+			}, {
+				"pagePath": "反馈组件",
+				"iconPath": "static/template.png",
+				"text": "反馈组件"
+			},
+			{
+				"pagePath": "布局组件",
+				"iconPath": "static/template.png",
+				"text": "布局组件"
+			},
+			{
+				"pagePath": "导航组件",
+				"iconPath": "static/template.png",
+				"text": "导航组件"
+			},
+			{
+				"pagePath": "其他组件",
+				"iconPath": "static/template.png",
+				"text": "其他组件"
+			},
+			{
+				"pagePath": "模板",
+				"iconPath": "static/template.png",
+				"text": "模板"
+			},
+			{
+				"pagePath": "已生成页面",
+				"iconPath": "static/template.png",
+				"text": "已生成页面"
+			}
+		]
+	}
+}
